@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float rad, area, circum;
+	float const pi = 3.142;
+	
+	cout << "Please enter the radius of the circle =" << endl;
+	cin >> rad;
+	
+	circum = 2 * pi * rad;
+	area = pi * rad * rad;
+	
+	cout << "The circumference of the circle is\n = " << circum << endl;
+	cout << "The area of the circle is\n = " << area << endl;
+	
+	return 0;
+}
